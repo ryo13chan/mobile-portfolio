@@ -34,7 +34,7 @@ class MobilePortfolioInfo extends StatelessWidget {
             recognizer: TapGestureRecognizer()
               ..onTap = () {
                 Utils.launchURL(
-                    'https://www.youtube.com/playlist?list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG');
+                    'https://ryo13chan.github.io/mobile-portfolio/');
               },
           ),
         ),
