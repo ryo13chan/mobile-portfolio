@@ -17,7 +17,6 @@ class Header extends StatelessWidget with PreferredSizeWidget {
 
   @override
   Widget build(BuildContext context) {
-    // test
     final theme = Provider.of<AppTheme>(context);
     return AppBar(
       centerTitle: false,
