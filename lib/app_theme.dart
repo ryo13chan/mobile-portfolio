@@ -1,0 +1,26 @@
+// Flutter imports:
+import 'package:flutter/material.dart';
+
+class AppTheme extends ChangeNotifier {
+  AppTheme() : _isDark = false;
+
+  bool get isDark => _isDark;
+
+  bool _isDark;
+
+  ThemeData buildTheme() => _isDark
+      ? ThemeData.dark()
+      : ThemeData.light().copyWith(
+          appBarTheme: const AppBarTheme(
+            backgroundColor: Color(0xff7cc7e8),
+          ),
+          floatingActionButtonTheme: const FloatingActionButtonThemeData(
+            backgroundColor: Color(0xff7cc7e8),
+          ),
+        );
+
+  void changeMode() {
+    _isDark = !_isDark;
+    notifyListeners();
+  }
+}
