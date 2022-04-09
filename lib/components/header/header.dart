@@ -6,6 +6,7 @@ import 'package:provider/provider.dart';
 
 // Project imports:
 import 'package:mobile_portfolio/app_theme.dart';
+import 'package:mobile_portfolio/components/git_latest_commit/git_latest_commit.dart';
 import 'package:mobile_portfolio/components/theme_switch.dart';
 
 class Header extends StatelessWidget with PreferredSizeWidget {
@@ -29,6 +30,7 @@ class Header extends StatelessWidget with PreferredSizeWidget {
           ),
         ),
       ),
+      title: const GitLatestCommit(),
       actions: [
         ThemeSwitch(
           theme.isDark,
