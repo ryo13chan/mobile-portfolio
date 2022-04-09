@@ -44,8 +44,11 @@ class FlutterWidgetOfTheWeekInfo extends StatelessWidget {
         RichText(
           text: TextSpan(
             children: [
-              const TextSpan(
+              TextSpan(
                 text: 'YouTubeの',
+                style: TextStyle(
+                  color: theme.isDark ? Colors.white : Colors.black,
+                ),
               ),
               TextSpan(
                 text: 'Flutter Widget of the Week',
@@ -56,8 +59,11 @@ class FlutterWidgetOfTheWeekInfo extends StatelessWidget {
                         'https://www.youtube.com/playlist?list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG');
                   },
               ),
-              const TextSpan(
+              TextSpan(
                 text: 'をまとめたWebアプリです。',
+                style: TextStyle(
+                  color: theme.isDark ? Colors.white : Colors.black,
+                ),
               ),
             ],
           ),
