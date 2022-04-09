@@ -51976,7 +51976,7 @@ H(a,b){var s=null,r=A.jM(s,s,A.jy(b,t.C).a?B.j:B.m,s,s,s,s,s,s,s,s,32,s,B.a0,s,s
 q.aN=new A.R6()
 return A.cO(A.b([B.jC,B.jl,A.jE(s,s,B.ah,!0,s,A.dv(s,q,r,"Mobile Portfolio"),B.a5,s,s,1,B.T),B.ae,B.Hr,B.ae,B.dz,B.jv,B.ju],t.p),B.al,B.L)}}
 A.R6.prototype={
-$0(){$.eQ().d5("open",[u.N])},
+$0(){$.eQ().d5("open",["https://ryo13chan.github.io/mobile-portfolio/"])},
 $S:0}
 A.DT.prototype={
 H(a,b){var s=null
