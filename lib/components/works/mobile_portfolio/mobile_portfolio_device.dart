@@ -15,7 +15,7 @@ class MobilePortfolioDevice extends StatelessWidget {
       child: MouseRegion(
         cursor: SystemMouseCursors.click,
         child: Image.asset(
-          'images/works/flutter_widget_of_the_week.png',
+          'images/works/mobile_portfolio.png',
           width: 400,
         ),
       ),
